@@ -5,14 +5,14 @@
 
 # 12c Features
 
-1) Sequence as Default Value 
+## Sequence as Default Value 
 
 ```sql
 Create sequence seq_t start with 1 increment 1 nocycle;
 Create table t_my_tab (id number default seq_t.nextval primary key)
 ```
 
-2) Invisible column
+## Invisible column
 Another new feature is we can define a table column as invisible columm. when we define column as invisible it is not being fetched when we use generic query like "select * from" . It can be queried by only direct usage like "select invcolumn from ..". This feature is useful especially when we dont need that column instead of drop it or some security reasons for example password column etc.
 
 ```sql
