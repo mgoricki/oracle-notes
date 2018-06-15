@@ -1,3 +1,12 @@
+# Oracle APEX notes
+
+[Oracle APEX Shortcuts](http://apex.oracle.com/shortcuts)
+
+## Oracle APEX 18.1
+- [Oracle APEX 18.1](apex181.md)
+- [Documentation](https://apex.oracle.com/doc181)
+
+
 # Oracle Notes
 
 - Continuous Query Notification (https://docs.oracle.com/cd/B28359_01/appdev.111/b28424/adfns_cqn.htm#BDCGGACA)
